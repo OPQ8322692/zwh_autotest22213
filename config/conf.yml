@@ -1,0 +1,8 @@
+#githug账号：OPQ8322692/Zwh8322692
+BASE:
+  #log等级
+  log_level: "debug"
+  #扩展名
+  log_extension: ".log"
+  test:
+    url: "test-user.wanshifu.com"

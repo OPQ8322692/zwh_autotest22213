@@ -1,0 +1,16 @@
+#数据库相关信息
+db_pre:
+  db_host: "172.18.192.35"
+  db_user: "user_test"
+  db_password: "UserTest1246"
+  db_name: ""
+  db_charset: "utf8"
+  db_port: 3306
+
+db_dev:
+  db_host: "172.18.192.35"
+  db_user: "user_test"
+  db_password: "UserTest1246"
+  db_name: ""
+  db_charset: "utf8"
+  db_port: 3306

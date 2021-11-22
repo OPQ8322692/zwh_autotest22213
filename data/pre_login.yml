@@ -1,0 +1,13 @@
+#登录测试用例
+
+#测试用例名称
+"case_name": "登录成功"
+#url地址
+"url": "https://test-user-web-api.wanshifu.com/user/security/login"
+#data
+"data":
+  principal: "zwh8322692"
+  password: "123456"
+  userType: "user"
+  isRemember: "true"
+  origin: "web"
