@@ -6,7 +6,7 @@
 "url": "https://test-user-web-api.wanshifu.com/user/security/login"
 #data
 "data":
-  principal: "zwh8322692"
+  principal: "13133333333"
   password: "123456"
   userType: "user"
   isRemember: "true"

@@ -6,3 +6,5 @@ BASE:
   log_extension: ".log"
   test:
     url: "test-user.wanshifu.com"
+    case_file: "auto_test_excel.xlsx"
+    case_sheet: "万师傅用户组接口用例模板"

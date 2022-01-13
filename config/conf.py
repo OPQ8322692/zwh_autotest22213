@@ -4,7 +4,7 @@ import os
 from utils.YamlUtil import YamlReader
 
 current = os.path.abspath(__file__)
-print(current)
+print("当前文件路径：%s"%current)
 #上上两层目录
 BASE_DIR = os.path.dirname(os.path.dirname(current))
 print(BASE_DIR)
@@ -51,6 +51,20 @@ class ConfigYml:
     # 获取日志扩展名
     def get_conf_extension(self):
         return self.config["BASE"]["log_extension"]
+    #定义获取测试用例excel名称
+    def get_excel_file(self):
+        """
+        获取测试用例excel名称
+        :return:
+        """
+        return self.config["BASE"]["test"]["case_file"]
+    #获取测试用例sheet名称
+    def get_excel_sheet(self):
+        """
+        获取测试用例sheet名称
+        :return:
+        """
+        return self.config["BASE"]["test"]["case_sheet"]
     #读取不同环境下的db信息
     def get_db_conf_info(self,db_alias):
         """
@@ -66,3 +80,5 @@ if __name__ == '__main__':
     print(conf_read.get_conf_log())
     print(conf_read.get_conf_extension())
     print(conf_read.get_db_conf_info("db_pre"))
+    print(conf_read.get_excel_file())
+    print(conf_read.get_excel_sheet())

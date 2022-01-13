@@ -3,6 +3,7 @@
 import requests
 
 from utils.loggerUtil import my_log
+from config.globalvar import GloblVar
 
 
 class Requests:
@@ -20,6 +21,9 @@ class Requests:
             r = requests.post(url,data=data,json=json,cookies=cookies,headers=headers)
         # 获取结果相应内容
         code = r.status_code
+        # #取出cookies,然后以json格式输出
+        # cookie_jar = r.cookies
+        # cookies = requests.utils.dict_from_cookiejar(cookie_jar)
         try:
             body = r.json()
         except Exception as e:
@@ -28,7 +32,14 @@ class Requests:
         res = dict()
         res["code"] = code
         res["body"] = body
-        res["cookies"] = cookies
+        res["data"] = data
+        #res["cookies"] = cookies
+        # #将token写进全局变量globalvar.py文件里面
+        # glovar = GloblVar()
+        # glovar.set_value('token', cookies)
+        # #打印cookies值
+        # cok = glovar.get_value("token")
+        # print("全局变量取到的登录token是：%s"%cok)
         # 字典返回
         return res
         #print(res["code"])
