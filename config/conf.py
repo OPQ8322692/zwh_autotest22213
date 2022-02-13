@@ -4,10 +4,10 @@ import os
 from utils.YamlUtil import YamlReader
 
 current = os.path.abspath(__file__)
-print("当前文件路径：%s"%current)
+#print("当前文件路径：%s"%current)
 #上上两层目录
 BASE_DIR = os.path.dirname(os.path.dirname(current))
-print(BASE_DIR)
+print("BASE_DIR的路径是：%s"%BASE_DIR)
 #定义config目录的路径
 _config_path = BASE_DIR + os.sep +"config"
 #定义data目录的路径
@@ -19,7 +19,12 @@ _config_file = _config_path + os.sep + "conf.yml"
 _log_path = BASE_DIR + os.sep +"logs"
 #定义db_conf.yml文件路径
 _db_config_file = _config_path + os.sep + "db_conf.yml"
+#定义report目录路径
+_report_path = BASE_DIR + os.sep + "report"
+#print("报告路径是：%s"%_report_path)
 
+def get_report_path():
+    return _report_path
 
 def get_config_path():
     return _config_path
@@ -74,11 +79,20 @@ class ConfigYml:
         """
         return self.db_config[db_alias]
 
+    def get_email_info(self):
+        """
+        获取邮件配置相关信息
+        :return:
+        """
+        return self.config["email"]
+
 if __name__ == '__main__':
     conf_read = ConfigYml()
+    print("配置文件conf.yml内容是：%s"%conf_read.config)
     print(conf_read.get_config_url())
     print(conf_read.get_conf_log())
     print(conf_read.get_conf_extension())
     print(conf_read.get_db_conf_info("db_pre"))
     print(conf_read.get_excel_file())
     print(conf_read.get_excel_sheet())
+    print(conf_read.get_email_info())

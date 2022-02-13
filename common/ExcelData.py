@@ -20,11 +20,37 @@ class Data:
         for line in self.reader.data():
             #判断列y，不管大小写都转成小写
             if str(line[DataConfig().is_run]).lower() == "y":
-                print(line)
+                #print(line)
                 # 3、保存要执行结果，放到新的列表
                 run_list.append(line)
         #print(run_list)
         return run_list
+
+    def get_case_list(self):
+        """
+        获取全部测试用例
+        :return:
+        """
+        run_list = list()
+        for line in self.reader.data():
+            run_list.append(line)
+        #列表推导式写法
+        #run_list = [line for line in self.reader.data()]
+        return run_list
+
+    def get_case_pre(self,pre):
+        """
+        1、获取全部测试用例
+        2、list判断，执行，获取
+        :param pre:
+        :return:
+        """
+        run_list = self.get_case_list()
+        for line in run_list:
+            if pre in dict(line).values():
+                return line
+        return None
+
 
 if __name__ == '__main__':
     # pytest.main(["-s","ExcelData.py"])
@@ -33,4 +59,8 @@ if __name__ == '__main__':
     test_file = conf_read.get_excel_file()
     #注意文件要用绝对或相对路径
     reader = Data("../data"+os.sep+test_file,conf_read.get_excel_sheet())
-    res = reader.get_run_list()
+    #res = reader.get_run_list()
+    res2 = reader.get_case_list()
+    print(res2)
+    res3 = reader.get_case_pre(2.0)
+    print(res3)

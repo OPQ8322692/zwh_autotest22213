@@ -32,7 +32,7 @@ class Requests:
         res = dict()
         res["code"] = code
         res["body"] = body
-        res["data"] = data
+        #res["body"]["data"] = data
         #res["cookies"] = cookies
         # #将token写进全局变量globalvar.py文件里面
         # glovar = GloblVar()

@@ -47,7 +47,7 @@ class AssertUtil:
         """
         try:
             body = json.dumps(body)
-            print(body)
+            #print(body)
             assert expected_body in body
             return True
         except:
