@@ -1,0 +1,116 @@
+{
+  "uid" : "8980146977a9244c",
+  "name" : "测试用例标题2",
+  "fullName" : "testcase.t_allure.allure_demo.TestAllure#test_2",
+  "historyId" : "660b7f42b1e854ddd427fe6a35e65dba",
+  "time" : {
+    "start" : 1643089110545,
+    "stop" : 1643089110545,
+    "duration" : 0
+  },
+  "description" : "执行用例2的结果是test2",
+  "descriptionHtml" : "<p>执行用例2的结果是test2</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是一个二级标签：test1"
+  }, {
+    "name" : "feature",
+    "value" : "接口测试，这是一个一级标签"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.t_allure"
+  }, {
+    "name" : "suite",
+    "value" : "allure_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "test"
+  }, {
+    "name" : "thread",
+    "value" : "282668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.t_allure.allure_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "43c6f7a17e982632",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643088673966,
+        "stop" : 1643088673966,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84c4d15da611d57e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643088453314,
+        "stop" : 1643088453314,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e533e0ac0be58d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643088342362,
+        "stop" : 1643088342362,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3215e6f11d880697",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643088335347,
+        "stop" : 1643088335347,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "83179edefd31e80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643086584754,
+        "stop" : 1643086584754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "90dfc4d47e8e806b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_2() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1643086488660,
+        "stop" : 1643086488661,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8980146977a9244c.json",
+  "parameterValues" : [ ]
+}

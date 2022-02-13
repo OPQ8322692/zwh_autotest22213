@@ -1,0 +1,542 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "503268-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "43bbcd98403d7182",
+        "parentUid" : "c604074c92578711b9e12ea936a82f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480293360,
+          "stop" : 1644480293905,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "a687dd85f685059d",
+        "parentUid" : "c604074c92578711b9e12ea936a82f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480293917,
+          "stop" : 1644480294737,
+          "duration" : 820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "2983d98be22fe1f1",
+        "parentUid" : "c604074c92578711b9e12ea936a82f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480293119,
+          "stop" : 1644480293346,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "c604074c92578711b9e12ea936a82f49"
+    }, {
+      "name" : "470880-MainThread",
+      "children" : [ {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "708cf24f2052113b",
+        "parentUid" : "cc3366bdb7b03bcda8b00d96a7f0c582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482928592,
+          "stop" : 1644482929699,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "68190148815b4e53",
+        "parentUid" : "cc3366bdb7b03bcda8b00d96a7f0c582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482927991,
+          "stop" : 1644482928246,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "48f567d5c672f190",
+        "parentUid" : "cc3366bdb7b03bcda8b00d96a7f0c582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482928263,
+          "stop" : 1644482928578,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "cc3366bdb7b03bcda8b00d96a7f0c582"
+    }, {
+      "name" : "505812-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "25f6da8e30045fc4",
+        "parentUid" : "9ee9f5dad62309b431514fb257c074d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483644630,
+          "stop" : 1644483645771,
+          "duration" : 1141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "2c3b4523cbe61e8f",
+        "parentUid" : "9ee9f5dad62309b431514fb257c074d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483645786,
+          "stop" : 1644483647671,
+          "duration" : 1885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "2ae947731646e85d",
+        "parentUid" : "9ee9f5dad62309b431514fb257c074d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483643749,
+          "stop" : 1644483644615,
+          "duration" : 866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "9ee9f5dad62309b431514fb257c074d0"
+    }, {
+      "name" : "505128-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "e4c8f9ee9acf2252",
+        "parentUid" : "96367f737958c790c5059b69929e0219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483803530,
+          "stop" : 1644483803841,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "3c37598863248ae6",
+        "parentUid" : "96367f737958c790c5059b69929e0219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483803852,
+          "stop" : 1644483804730,
+          "duration" : 878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "901e1280a4c49b1f",
+        "parentUid" : "96367f737958c790c5059b69929e0219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483803145,
+          "stop" : 1644483803512,
+          "duration" : 367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "96367f737958c790c5059b69929e0219"
+    }, {
+      "name" : "486620-MainThread",
+      "children" : [ {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "a3deda3f60fbb792",
+        "parentUid" : "bc56abb8fc05abf15f724c0afe477d60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644390696498,
+          "stop" : 1644390698091,
+          "duration" : 1593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "439bd28f95282e9f",
+        "parentUid" : "bc56abb8fc05abf15f724c0afe477d60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644390695771,
+          "stop" : 1644390696119,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "d10f3acd02e1a0cd",
+        "parentUid" : "bc56abb8fc05abf15f724c0afe477d60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644390696129,
+          "stop" : 1644390696489,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "bc56abb8fc05abf15f724c0afe477d60"
+    }, {
+      "name" : "504124-MainThread",
+      "children" : [ {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "e6c53c21c68433c0",
+        "parentUid" : "ded499403b75fc0c68a7e52791ef9233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483047068,
+          "stop" : 1644483047377,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "dc5aa4255456d0fd",
+        "parentUid" : "ded499403b75fc0c68a7e52791ef9233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483047386,
+          "stop" : 1644483047665,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "fecd5c4cb85711cc",
+        "parentUid" : "ded499403b75fc0c68a7e52791ef9233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644483047675,
+          "stop" : 1644483048414,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      } ],
+      "uid" : "ded499403b75fc0c68a7e52791ef9233"
+    }, {
+      "name" : "504224-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "fe171544d7498e48",
+        "parentUid" : "756d2ff4508682422111b7cbb2248db1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644485104495,
+          "stop" : 1644485104798,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "529f20e4b860d828",
+        "parentUid" : "756d2ff4508682422111b7cbb2248db1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644485104264,
+          "stop" : 1644485104473,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "b179ed7bb8c6ce6c",
+        "parentUid" : "756d2ff4508682422111b7cbb2248db1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644485104837,
+          "stop" : 1644485105783,
+          "duration" : 946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      } ],
+      "uid" : "756d2ff4508682422111b7cbb2248db1"
+    }, {
+      "name" : "503524-MainThread",
+      "children" : [ {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "f349630697dadb75",
+        "parentUid" : "320355b6b001b53e10af139dadc9820d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482712051,
+          "stop" : 1644482712945,
+          "duration" : 894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "a1ed7bf1b269f939",
+        "parentUid" : "320355b6b001b53e10af139dadc9820d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482711272,
+          "stop" : 1644482711673,
+          "duration" : 401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "934e4b6f35ed7bb9",
+        "parentUid" : "320355b6b001b53e10af139dadc9820d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482711693,
+          "stop" : 1644482711981,
+          "duration" : 288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "320355b6b001b53e10af139dadc9820d"
+    }, {
+      "name" : "502412-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "6fbdf5e459ca0268",
+        "parentUid" : "8ac6e2352220d9728ee3dc9b84009929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482995869,
+          "stop" : 1644482996162,
+          "duration" : 293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "e755475225af61a6",
+        "parentUid" : "8ac6e2352220d9728ee3dc9b84009929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482996175,
+          "stop" : 1644482996983,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "ca03c859d744f02e",
+        "parentUid" : "8ac6e2352220d9728ee3dc9b84009929",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644482995600,
+          "stop" : 1644482995862,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "8ac6e2352220d9728ee3dc9b84009929"
+    }, {
+      "name" : "486180-MainThread",
+      "children" : [ {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "e469ded66b2de0c7",
+        "parentUid" : "aabaab57a29b20791e28d19851b6cb02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644378402634,
+          "stop" : 1644378402925,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "aabaab57a29b20791e28d19851b6cb02"
+    }, {
+      "name" : "472180-MainThread",
+      "children" : [ {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "1fbb4b056f44e82d",
+        "parentUid" : "ef22f1277dcd0f7cbc651d553202d2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644486886149,
+          "stop" : 1644486888181,
+          "duration" : 2032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "ed1fe4d34c896405",
+        "parentUid" : "ef22f1277dcd0f7cbc651d553202d2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644486883143,
+          "stop" : 1644486884533,
+          "duration" : 1390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "4691cf9716bce37f",
+        "parentUid" : "ef22f1277dcd0f7cbc651d553202d2eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644486884546,
+          "stop" : 1644486886137,
+          "duration" : 1591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "ef22f1277dcd0f7cbc651d553202d2eb"
+    }, {
+      "name" : "503928-MainThread",
+      "children" : [ {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "136657ae26f9bf55",
+        "parentUid" : "6b88afe9f957497fb403def948e57510",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480425102,
+          "stop" : 1644480425457,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "a2b3465cd7771da8",
+        "parentUid" : "6b88afe9f957497fb403def948e57510",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480425469,
+          "stop" : 1644480426285,
+          "duration" : 816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "5e5cc7bdb63fb6bd",
+        "parentUid" : "6b88afe9f957497fb403def948e57510",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480424765,
+          "stop" : 1644480425086,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "6b88afe9f957497fb403def948e57510"
+    }, {
+      "name" : "496300-MainThread",
+      "children" : [ {
+        "name" : "3.0发布师傅-家具安装订单",
+        "uid" : "a1566c49dbab3bf3",
+        "parentUid" : "e72fa333f16fc58661fabe49cec411d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480964043,
+          "stop" : 1644480964746,
+          "duration" : 703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '3.0', '模块': '发布订单', '接口名称': '发布师傅-家具安装订单', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/create', '前置条件': '2.0', '请求类型': 'POST', '请求参数类型': 'json', '请求参数': '{\\n    \"orderGoodsList\":[\\n        {\\n            \"addedService\":null,\\n            \"ancillaryGoods\":{\\n                \"notContainAccessory\":{\\n\\n                }\\n            },\\n            \"bulk\":null,\\n            \"bulkAttr\":null,\\n            \"bulkExtra\":{\\n\\n            },\\n            \"bulkUnit\":null,\\n            \"category\":402,\\n            \"categoryChild\":72,\\n            \"categoryChildName\":\"儿童床\",\\n            \"categoryName\":\"床类\",\\n            \"checkStatus\":1,\\n            \"createTime\":1639191159,\\n            \"doorCategory\":null,\\n            \"doorCategoryAttr\":{\\n\\n            },\\n            \"environmentalImgLists\":[\\n                {\\n                    \"attachmentId\":5194576576,\\n                    \"fileName\":\"\",\\n                    \"fileType\":\"image\",\\n                    \"fileUrl\":\"\",\\n                    \"path\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                },\\n                {\\n                    \"attachmentId\":null,\\n                    \"fileName\":\"OAuth2.0协议.pdf\",\\n                    \"fileType\":\"pdf\",\\n                    \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\",\\n                    \"path\":null\\n                }\\n            ],\\n            \"fixedWallAttr\":{\\n                \"needFixedWall\":\"\"\\n            },\\n            \"goodsAttr\":{\\n\\n            },\\n            \"goodsBrand\":null,\\n            \"goodsInfo\":\"{}\",\\n            \"goodsUnit\":\"张\",\\n            \"installAttr\":null,\\n            \"installRequire\":null,\\n            \"isDefaultImg\":null,\\n            \"isDefinitePrice\":1,\\n            \"isDisassemble\":\"0\",\\n            \"isMeasure\":null,\\n            \"isNeedSnCode\":null,\\n            \"isOption\":1,\\n            \"isShowSnButton\":null,\\n            \"maintainType\":null,\\n            \"name\":\"666\",\\n            \"note\":null,\\n            \"number\":1,\\n            \"otherInfo\":\"不含其它\",\\n            \"picNum\":5,\\n            \"repairType\":null,\\n            \"serveCategory\":1,\\n            \"serveCategoryName\":\"家具\",\\n            \"status\":1,\\n            \"thirdLabel\":\"platform\",\\n            \"tipDoorNum\":null,\\n            \"ugId\":6474724,\\n            \"updateTime\":1642063752,\\n            \"useCount\":54247,\\n            \"userGoodsImageList\":[\\n                {\\n                    \"aid\":4847844383,\\n                    \"path\":\"https://qncdn.wanshifu.com/432535b2acd7df0f14ec66deb8df4187\"\\n                },\\n                {\\n                    \"aid\":4851192519,\\n                    \"path\":\"https://qncdn.wanshifu.com/7cbbed78160183fb0a1854b6df1c54e6\"\\n                },\\n                {\\n                    \"aid\":5045501386,\\n                    \"path\":\"https://qncdn.wanshifu.com/a7d25c847f8d86c98437e9494a9d162d\"\\n                },\\n                {\\n                    \"aid\":5045501525,\\n                    \"path\":\"https://qncdn.wanshifu.com/463002ad0fa774e222491c71619c4636\"\\n                },\\n                {\\n                    \"aid\":5045501526,\\n                    \"path\":\"https://qncdn.wanshifu.com/65e3028f0a3150f35ed08ac89f48a1d6\"\\n                }\\n            ],\\n            \"userVideo\":{\\n\\n            },\\n            \"wallFixed\":null,\\n            \"weight\":null,\\n            \"uniKey\":\"kydurg5l\",\\n            \"goodsName\":\"666\",\\n            \"videoType\":null,\\n            \"videoUrl\":null,\\n            \"videoId\":null,\\n            \"orderGoodsImage\":{\\n                \"goodsImageList\":[\\n                    {\\n                        \"attachmentId\":4847844383\\n                    },\\n                    {\\n                        \"attachmentId\":4851192519\\n                    },\\n                    {\\n                        \"attachmentId\":5045501386\\n                    },\\n                    {\\n                        \"attachmentId\":5045501525\\n                    },\\n                    {\\n                        \"attachmentId\":5045501526\\n                    }\\n                ],\\n                \"environmentImageList\":[\\n                    {\\n                        \"fileType\":\"image\",\\n                        \"attachmentId\":5194576576,\\n                        \"fileName\":\"\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/4e6d578872ba8849795d6fce16dbd3de\"\\n                    },\\n                    {\\n                        \"fileType\":\"pdf\",\\n                        \"attachmentId\":null,\\n                        \"fileName\":\"OAuth2.0协议.pdf\",\\n                        \"fileUrl\":\"https://qncdn.wanshifu.com/0ee9b6539ab4ba32e9e06e17084015cf.pdf\"\\n                    }\\n                ]\\n            },\\n            \"goodsCategory\":402\\n        }\\n    ],\\n    \"toAccountId\":null,\\n    \"reOrderToken\":\"${reOrderToken}$\",\\n    \"orderBase\":{\\n        \"fourthDivisionId\":440306001,\\n        \"thirdDivisionId\":440306,\\n        \"serveTypeId\":4,\\n        \"categoryId\":1,\\n        \"serveType\":4\\n    },\\n    \"isDefinitePrice\":\"0\",\\n    \"orderExtraData\":{\\n        \"contactName\":\"张三\",\\n        \"contactPhone\":\"15915329917\",\\n        \"buyerAddress\":\"新安街道某街道某某路某花园${reOrderToken}$\",\\n        \"buyerPhone\":\"13612345678\",\\n        \"buyerName\":\"万某某\",\\n        \"floorNum\":\"0\"\\n    },\\n    \"orderLogisticsInfo\":{\\n        \"trackingIsIdentified\":0,\\n        \"customArriveStatus\":\"2\"\\n    },\\n    \"autoAppointRuleId\":\"\"\\n}', '预期结果': \"orderId'\", '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': 'SELECT order_id as orderId FROM t_user_order_service.order_base WHERE user_id = 3402033689 ORDER BY create_time DESC LIMIT 1'}" ]
+      }, {
+        "name" : "1.0请求获取reorderToken1",
+        "uid" : "2c38b4f317c7678e",
+        "parentUid" : "e72fa333f16fc58661fabe49cec411d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480963544,
+          "stop" : 1644480963761,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '1.0', '模块': '发布订单', '接口名称': '请求获取reorderToken1', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "2.0请求获取reorderToken",
+        "uid" : "e69a956a1ca06c8f",
+        "parentUid" : "e72fa333f16fc58661fabe49cec411d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644480963770,
+          "stop" : 1644480964030,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': '2.0', '模块': '发布订单', '接口名称': '请求获取reorderToken', '请求URL': 'https://test-user-site-api.wanshifu.com/order/publish/info', '前置条件': '', '请求类型': 'POST', '请求参数类型': 'data', '请求参数': '{\"action\":\"create\"}', '预期结果': '', '实际结果': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "e72fa333f16fc58661fabe49cec411d8"
+    } ],
+    "uid" : "714cfecb70b7a7a2c0a4a2fae68ce27d"
+  } ]
+}

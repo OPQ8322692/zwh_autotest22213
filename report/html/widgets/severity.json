@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1fbb4b056f44e82d",
+  "name" : "3.0发布师傅-家具安装订单",
+  "time" : {
+    "start" : 1644486886149,
+    "stop" : 1644486888181,
+    "duration" : 2032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1fe4d34c896405",
+  "name" : "1.0请求获取reorderToken1",
+  "time" : {
+    "start" : 1644486883143,
+    "stop" : 1644486884533,
+    "duration" : 1390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4691cf9716bce37f",
+  "name" : "2.0请求获取reorderToken",
+  "time" : {
+    "start" : 1644486884546,
+    "stop" : 1644486886137,
+    "duration" : 1591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

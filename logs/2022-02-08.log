@@ -1,0 +1,156 @@
+2022-02-08 16:16:34,084 Request DEBUG 发送post请求 
+2022-02-08 16:16:34,716 Request DEBUG 发送post请求 
+2022-02-08 16:16:35,195 Request DEBUG 发送post请求 
+2022-02-08 16:16:35,359 Request DEBUG 发送post请求 
+2022-02-08 16:16:36,145 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524372} 
+2022-02-08 16:17:52,852 Request DEBUG 发送post请求 
+2022-02-08 16:17:53,553 Request DEBUG 发送post请求 
+2022-02-08 16:17:54,032 Request DEBUG 发送post请求 
+2022-02-08 16:17:54,251 Request DEBUG 发送post请求 
+2022-02-08 16:17:54,914 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524374} 
+2022-02-08 16:18:50,057 Request DEBUG 发送post请求 
+2022-02-08 16:18:50,724 Request DEBUG 发送post请求 
+2022-02-08 16:18:51,216 Request DEBUG 发送post请求 
+2022-02-08 16:18:51,371 Request DEBUG 发送post请求 
+2022-02-08 16:18:52,014 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524379} 
+2022-02-08 16:23:15,767 Request DEBUG 发送post请求 
+2022-02-08 16:23:16,075 Request DEBUG 发送post请求 
+2022-02-08 16:23:16,375 Request DEBUG 发送post请求 
+2022-02-08 16:23:16,548 Request DEBUG 发送post请求 
+2022-02-08 16:23:17,197 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524407} 
+2022-02-08 16:29:02,791 Request DEBUG 发送post请求 
+2022-02-08 16:29:03,088 Request DEBUG 发送post请求 
+2022-02-08 16:29:03,376 Request DEBUG 发送post请求 
+2022-02-08 16:29:03,563 Request DEBUG 发送post请求 
+2022-02-08 16:29:04,134 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524417} 
+2022-02-08 16:31:34,772 Request DEBUG 发送post请求 
+2022-02-08 16:31:35,031 Request DEBUG 发送post请求 
+2022-02-08 16:31:35,361 Request DEBUG 发送post请求 
+2022-02-08 16:31:35,739 Request DEBUG 发送post请求 
+2022-02-08 16:31:36,448 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524419} 
+2022-02-08 16:36:37,113 Request DEBUG 发送post请求 
+2022-02-08 16:36:37,511 Request DEBUG 发送post请求 
+2022-02-08 16:36:37,792 Request DEBUG 发送post请求 
+2022-02-08 16:36:37,944 Request DEBUG 发送post请求 
+2022-02-08 16:36:38,598 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524437} 
+2022-02-08 16:37:12,265 Request DEBUG 发送post请求 
+2022-02-08 16:37:12,562 Request DEBUG 发送post请求 
+2022-02-08 16:37:12,900 Request DEBUG 发送post请求 
+2022-02-08 16:37:13,069 Request DEBUG 发送post请求 
+2022-02-08 16:37:13,896 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524460} 
+2022-02-08 16:38:35,580 Request DEBUG 发送post请求 
+2022-02-08 16:38:35,901 Request DEBUG 发送post请求 
+2022-02-08 16:38:36,358 Request DEBUG 发送post请求 
+2022-02-08 16:38:36,569 Request DEBUG 发送post请求 
+2022-02-08 16:38:37,289 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524462} 
+2022-02-08 16:39:42,302 Request DEBUG 发送post请求 
+2022-02-08 16:39:42,606 Request DEBUG 发送post请求 
+2022-02-08 16:39:43,028 Request DEBUG 发送post请求 
+2022-02-08 16:39:43,227 Request DEBUG 发送post请求 
+2022-02-08 16:39:43,929 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524464} 
+2022-02-08 16:41:34,889 Request DEBUG 发送post请求 
+2022-02-08 16:41:35,240 Request DEBUG 发送post请求 
+2022-02-08 16:41:35,518 Request DEBUG 发送post请求 
+2022-02-08 16:41:35,730 Request DEBUG 发送post请求 
+2022-02-08 16:41:36,536 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524470} 
+2022-02-08 16:43:03,579 Request DEBUG 发送post请求 
+2022-02-08 16:43:03,878 Request DEBUG 发送post请求 
+2022-02-08 16:43:04,183 Request DEBUG 发送post请求 
+2022-02-08 16:43:04,404 Request DEBUG 发送post请求 
+2022-02-08 16:43:05,025 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524475} 
+2022-02-08 16:46:01,264 Request DEBUG 发送post请求 
+2022-02-08 16:46:01,902 Request DEBUG 发送post请求 
+2022-02-08 16:46:02,253 Request DEBUG 发送post请求 
+2022-02-08 16:46:02,414 Request DEBUG 发送post请求 
+2022-02-08 16:46:03,230 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524500} 
+2022-02-08 16:57:40,309 Request DEBUG 发送post请求 
+2022-02-08 16:57:40,639 Request DEBUG 发送post请求 
+2022-02-08 16:57:40,901 Request DEBUG 发送post请求 
+2022-02-08 16:57:41,083 Request DEBUG 发送post请求 
+2022-02-08 16:57:41,993 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524536} 
+2022-02-08 16:59:37,971 Request DEBUG 发送post请求 
+2022-02-08 16:59:38,325 Request DEBUG 发送post请求 
+2022-02-08 16:59:38,609 Request DEBUG 发送post请求 
+2022-02-08 16:59:38,976 Request DEBUG 发送post请求 
+2022-02-08 16:59:39,723 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524538} 
+2022-02-08 17:03:50,907 Request DEBUG 发送post请求 
+2022-02-08 17:03:51,125 Request DEBUG 发送post请求 
+2022-02-08 17:03:51,451 Request DEBUG 发送post请求 
+2022-02-08 17:03:51,720 Request DEBUG 发送post请求 
+2022-02-08 17:03:52,279 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524540} 
+2022-02-08 17:27:40,483 Request DEBUG 发送post请求 
+2022-02-08 17:27:41,531 AssertUtil ERROR code error,code is 502,expected_code is 200 
+2022-02-08 17:27:41,699 Request DEBUG 发送post请求 
+2022-02-08 17:27:42,753 AssertUtil ERROR code error,code is 502,expected_code is 200 
+2022-02-08 17:27:42,772 Request DEBUG 发送post请求 
+2022-02-08 17:36:17,256 Request DEBUG 发送post请求 
+2022-02-08 17:36:18,078 Request DEBUG 发送post请求 
+2022-02-08 17:36:18,384 Request DEBUG 发送post请求 
+2022-02-08 17:36:18,611 Request DEBUG 发送post请求 
+2022-02-08 17:36:21,319 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524548} 
+2022-02-08 17:39:52,155 Request DEBUG 发送post请求 
+2022-02-08 17:39:52,500 Request DEBUG 发送post请求 
+2022-02-08 17:39:52,809 Request DEBUG 发送post请求 
+2022-02-08 17:39:52,992 Request DEBUG 发送post请求 
+2022-02-08 17:39:53,694 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524552} 
+2022-02-08 17:51:27,460 Request DEBUG 发送post请求 
+2022-02-08 17:51:27,758 Request DEBUG 发送post请求 
+2022-02-08 17:51:28,051 Request DEBUG 发送post请求 
+2022-02-08 17:51:28,279 Request DEBUG 发送post请求 
+2022-02-08 17:51:29,153 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524555} 
+2022-02-08 17:54:05,777 Request DEBUG 发送post请求 
+2022-02-08 17:54:06,033 Request DEBUG 发送post请求 
+2022-02-08 17:54:06,323 Request DEBUG 发送post请求 
+2022-02-08 17:54:06,506 Request DEBUG 发送post请求 
+2022-02-08 17:54:07,206 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524557} 
+2022-02-08 17:58:55,279 Request DEBUG 发送post请求 
+2022-02-08 17:58:55,634 Request DEBUG 发送post请求 
+2022-02-08 17:58:55,896 Request DEBUG 发送post请求 
+2022-02-08 17:58:56,078 Request DEBUG 发送post请求 
+2022-02-08 17:58:56,605 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524567} 
+2022-02-08 18:04:03,845 Request DEBUG 发送post请求 
+2022-02-08 18:04:04,144 Request DEBUG 发送post请求 
+2022-02-08 18:04:04,436 Request DEBUG 发送post请求 
+2022-02-08 18:04:04,592 Request DEBUG 发送post请求 
+2022-02-08 18:04:05,351 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524569} 
+2022-02-08 18:06:30,884 Request DEBUG 发送post请求 
+2022-02-08 18:06:31,240 Request DEBUG 发送post请求 
+2022-02-08 18:06:31,507 Request DEBUG 发送post请求 
+2022-02-08 18:06:31,660 Request DEBUG 发送post请求 
+2022-02-08 18:06:32,496 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524571} 
+2022-02-08 18:11:01,224 Request DEBUG 发送post请求 
+2022-02-08 18:11:01,542 Request DEBUG 发送post请求 
+2022-02-08 18:11:01,955 Request DEBUG 发送post请求 
+2022-02-08 18:11:02,151 Request DEBUG 发送post请求 
+2022-02-08 18:11:03,031 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524573} 
+2022-02-08 18:12:50,398 Request DEBUG 发送post请求 
+2022-02-08 18:12:50,713 Request DEBUG 发送post请求 
+2022-02-08 18:12:50,960 Request DEBUG 发送post请求 
+2022-02-08 18:12:51,128 Request DEBUG 发送post请求 
+2022-02-08 18:12:51,780 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524575} 
+2022-02-08 18:16:04,520 Request DEBUG 发送post请求 
+2022-02-08 18:16:04,847 Request DEBUG 发送post请求 
+2022-02-08 18:16:05,169 Request DEBUG 发送post请求 
+2022-02-08 18:16:05,323 Request DEBUG 发送post请求 
+2022-02-08 18:16:07,409 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524577} 
+2022-02-08 18:16:59,168 Request DEBUG 发送post请求 
+2022-02-08 18:16:59,592 Request DEBUG 发送post请求 
+2022-02-08 18:17:00,132 E:\zwh_autotest\utils\loggerUtil.py DEBUG 数据库查询结果：{'orderId': 12183524579} 
+2022-02-08 18:17:19,488 Request DEBUG 发送post请求 
+2022-02-08 18:21:51,929 Request DEBUG 发送post请求 
+2022-02-08 18:22:16,441 Request DEBUG 发送post请求 
+2022-02-08 18:23:37,000 Request DEBUG 发送post请求 
+2022-02-08 18:26:51,336 Request DEBUG 发送post请求 
+2022-02-08 18:31:48,771 Request DEBUG 发送post请求 
+2022-02-08 18:34:15,611 Request DEBUG 发送post请求 
+2022-02-08 18:38:54,123 Request DEBUG 发送post请求 
+2022-02-08 18:41:52,465 Request DEBUG 发送post请求 
+2022-02-08 18:51:51,664 Request DEBUG 发送post请求 
+2022-02-08 18:52:22,587 Request DEBUG 发送post请求 
+2022-02-08 18:52:41,888 Request DEBUG 发送post请求 
+2022-02-08 18:53:21,456 Request DEBUG 发送post请求 
+2022-02-08 18:54:32,345 Request DEBUG 发送post请求 
+2022-02-08 18:55:35,342 Request DEBUG 发送post请求 
+2022-02-08 18:55:56,792 Request DEBUG 发送post请求 
+2022-02-08 18:58:16,891 Request DEBUG 发送post请求 
+2022-02-08 18:59:03,151 Request DEBUG 发送post请求 

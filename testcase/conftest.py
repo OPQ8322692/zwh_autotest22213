@@ -26,8 +26,8 @@ class Test1:
         print("用例3：登录之后其它动作333")
 """
 import pytest
-from testcase.test_userlogin import *
-from testcase.test_userlogin import form_data_list
+from testcase.utest_userlogin import *
+from testcase.utest_userlogin import form_data_list
 
 Pre_login = Test_user_login()
 data2 = form_data_list[0]
