@@ -12,5 +12,6 @@ BASE:
 email:
   smtpserver: "smtp.qq.com"
   username: "woaiden@foxmail.com"
-  password: "nufdombffbdzbhej"
+  #password: "nufdombffbdzbhej"
+  password: "fvcpsdognagqbjie"
   receiver: "zhangweiheng@wshifu.com"

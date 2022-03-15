@@ -4,10 +4,23 @@
 "case_name": "登录成功"
 #url地址
 "url": "https://test-user-web-api.wanshifu.com/user/security/login"
-#data
+"url_enterprise": "https://test-enterprise-api.wanshifu.com/auth/login"
+"url_userapp": "https://test-user-app-api.wanshifu.com/user/security/login"
+#data用户账号信息
 "data":
   principal: "13133333333"
   password: "123456"
   userType: "user"
   isRemember: "true"
   origin: "web"
+
+#总包账号信息
+"data_dataenterprise":
+  account: "keke"
+  pwd: "dGVzdEAxMjM0NTY="
+
+ #用户app登录信息
+"data_userapp":
+  principal: "13133333333"
+  password: "test@123456"
+  userType: "user"

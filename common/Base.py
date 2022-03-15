@@ -96,7 +96,7 @@ def allure_report(report_path,report_html):
     :return:
     """
     #执行命令 allure generate
-    #t_allure>allure generate report/result -o report/html --clean
+    #t_allure>allure generate report/result.txt -o report/html --clean
     allure_cmd = "allure generate %s -o %s --clean"%(report_path,report_html)
     log.info("报告地址")
     try:
@@ -138,11 +138,11 @@ if __name__ == '__main__':
     print(res_find(params3))
     #dict = {"body":{"token":"123"}}
     #print(get_correlation('{"Auto":"cookies${token}$"}','{"Auto":"cookies${token}$"}','{"Auto":"cookies${token}$"}',dict))
-    # pytest.main(["-s","Base.py","--alluredir","./report3/result"])
-    # test_allure_report("./report3/result","./report3/html")
+    # pytest.main(["-s","Base.py","--alluredir","./report3/result.txt"])
+    # test_allure_report("./report3/result.txt","./report3/html")
 
 
-    report_path = conf.get_report_path() + os.sep + "result"
+    report_path = conf.get_report_path() + os.sep + "result.txt"
     print("报告文件夹名称为：%s"%report_path)
     report_html_path = conf.get_report_path() + os.sep + "html"
     print("报告html文件名称为：%s" % report_html_path)
@@ -150,6 +150,6 @@ if __name__ == '__main__':
     allure_report(report_path, report_html_path)
 
     # 注意用绝对路径时，前面要用r
-    # pytest.main(["-s", "Base.py", "--alluredir", r"E:\zwh_autotest\report\result"])
-    # allure_report(r"E:\zwh_autotest\report\result", r"E:\zwh_autotest\report\html")
+    # pytest.main(["-s", "Base.py", "--alluredir", r"E:\zwh_autotest\report\result.txt"])
+    # allure_report(r"E:\zwh_autotest\report\result.txt", r"E:\zwh_autotest\report\html")
 

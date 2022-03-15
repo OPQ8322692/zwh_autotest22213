@@ -28,9 +28,19 @@ class Test1:
 import pytest
 from testcase.utest_userlogin import *
 from testcase.utest_userlogin import form_data_list
+from testcase.utest_userlogin import form_data_list_enterprise
+from testcase.utest_userlogin import form_data_list_userapp
 
 Pre_login = Test_user_login()
+#用户登录数据,不知为啥会打印两次
 data2 = form_data_list[0]
+#print('用户登录数据是',data2)
+#总包登录数据
+data_enterprise = form_data_list_enterprise[0]
+#用户app登录数据
+data_userapp = form_data_list_userapp[0]
+
+#print('总包登录数据是',data_enterprise)
 #token = Pre_login.test_login({'principal': '13133333333', 'password': '123456', 'userType': 'user', 'isRemember': 'true', 'origin': 'web'})
 # token = Pre_login.test_login(data2)
 # print(token)
@@ -38,8 +48,18 @@ data2 = form_data_list[0]
 @pytest.fixture(scope="class")
 def get_token():
     token = Pre_login.test_login(data2)
-    #print(token)
+    #print(888888)
     return token
+
+@pytest.fixture(scope="class")
+def get_token_enterprise():
+    token_enterprise = Pre_login.test_login_enterprise(data_enterprise)
+    return token_enterprise
+
+@pytest.fixture(scope="class")
+def get_token_userapp():
+    token_userapp = Pre_login.test_login_userapp(data_userapp)
+    return token_userapp
 
 if __name__ == "__main__":
     pytest.main(["-s","conftest.py"])

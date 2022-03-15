@@ -1,5 +1,5 @@
 {
-  "2d6989c1ebe0406e6896bd0931af31b2" : {
+  "755238e9ea79110f7e491006bdfe6e93" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,35 +9,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4691cf9716bce37f",
+      "uid" : "69bbdf8f1683079f",
       "status" : "passed",
       "time" : {
-        "start" : 1644486884546,
-        "stop" : 1644486886137,
-        "duration" : 1591
+        "start" : 1647075654686,
+        "stop" : 1647075656050,
+        "duration" : 1364
       }
     } ]
   },
-  "940ff06ba51575358351d3e94f4c5e51" : {
+  "230c525572479b23adf8606517f86524" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed1fe4d34c896405",
-      "status" : "passed",
+      "uid" : "5bad98c81f5fa0ce",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'items'",
       "time" : {
-        "start" : 1644486883143,
-        "stop" : 1644486884533,
-        "duration" : 1390
+        "start" : 1647339983431,
+        "stop" : 1647339983435,
+        "duration" : 4
       }
     } ]
   },
-  "62a3fa3915fa4e15de3d7a4023a8d340" : {
+  "6c4cd46130ba175c3ca325dc433ed566" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,12 +48,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1fbb4b056f44e82d",
+      "uid" : "2a727a2eeb6983e1",
       "status" : "passed",
       "time" : {
-        "start" : 1644486886149,
-        "stop" : 1644486888181,
-        "duration" : 2032
+        "start" : 1647075656078,
+        "stop" : 1647075656732,
+        "duration" : 654
+      }
+    } ]
+  },
+  "5f75d2e06807dfa194a309ace9c4813a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "206a255f15845c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647075653738,
+        "stop" : 1647075654669,
+        "duration" : 931
       }
     } ]
   }

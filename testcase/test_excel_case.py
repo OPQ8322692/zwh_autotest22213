@@ -23,12 +23,16 @@ from config.globalvar import GloblVar
 
 
 # 1、初始化测试用例文件
-case_file = os.path.join("../testcase", ConfigYml().get_excel_file())
+#case_file = os.path.join("../testcase", ConfigYml().get_excel_file())
+#改成绝对路径
+case_file = os.path.join(conf.get_data_path(), ConfigYml().get_excel_file())
 # 2、测试用例sheet名称
 sheet_name = ConfigYml().get_excel_sheet()
 # 3、获取运行全部为y的测试用例列表
 data_init = Data(case_file, sheet_name)
 run_list = data_init.get_run_list()
+#id = run_list[3]["用例ID"]
+#print("判断用例id是：%s"%id)
 print(run_list)
 # 4、打印日志
 log = my_log()
@@ -77,7 +81,7 @@ data_key = ExcelConfig.DataConfig()
 
 #参数化运行,多个用例执行
 class TestExcel:
-    def run_api(self,url,get_token,method,params_type,params=None,header=None,cookies=None):
+    def run_api(self,url,Product_line,get_token,get_token_enterprise,get_token_userapp,method,params_type,params=None,headers=None,cookies=None):
         """
         发送请求api
         :return:
@@ -88,18 +92,45 @@ class TestExcel:
         # 验证params有没有内容
         if len(str(params).strip()) is not 0:
             params = json.loads(params)
+        #请求头转为字典
+        if len(str(headers).strip()) is not 0:
+            headers = json.loads(headers)
         # method post/get
-        if str(method).lower() == "get":
-            r = request.get(url, json=params, cookies=get_token)
-        elif str(method).lower() == "post" and params_type == "data":
-            r = request.post(url, data=params, cookies=get_token)
-        elif str(method).lower() == "post" and params_type == "json":
+
+        #get-params
+        if str(method).lower() == "get" and params_type == "params" and Product_line =="enterprise":
+            r = request.get(url, params=params, cookies=get_token_enterprise)
+        elif str(method).lower() == "get" and params_type == "params" and Product_line == "user_web":
+            r = request.get(url, params=params, cookies=get_token)
+        elif str(method).lower() == "get" and params_type == "params" and Product_line == "user_app":
+            r = request.get(url, params=params, cookies=get_token_userapp)
+
+        elif str(method).lower() == "get" and params_type == "json" and Product_line == "user_web":
             r = request.post(url, json=params, cookies=get_token)
+        elif str(method).lower() == "get" and params_type == "json" and Product_line == "enterprise":
+            r = request.post(url, json=params, cookies=get_token_enterprise)
+
+        #post-data
+        elif str(method).lower() == "post" and params_type == "data" and Product_line == "user_web":
+            r = request.post(url, data=params, cookies=get_token)
+        elif str(method).lower() == "post" and params_type == "data" and Product_line == "enterprise":
+            r = request.post(url, data=params, cookies=get_token_enterprise)
+        elif str(method).lower() == "post" and params_type == "data" and Product_line == "user_app":
+            r = request.post(url, data=params,headers=headers,cookies=get_token_userapp)
+
+        #post-json
+        elif str(method).lower() == "post" and params_type == "json" and Product_line == "user_web":
+            r = request.post(url, json=params, cookies=get_token)
+        elif str(method).lower() == "post" and params_type == "json" and Product_line == "enterprise":
+            r = request.post(url, json=params, cookies=get_token_enterprise)
+        elif str(method).lower() == "post" and params_type == "json" and Product_line == "user_app":
+            r = request.post(url, json=params, cookies=get_token_userapp)
+
         else:
             log.error("错误请求method: %s" % method)
         return r
 
-    def run_pre(self,pre_case,get_token):
+    def run_pre(self,pre_case,get_token,get_token_enterprise,Product_line,get_token_userapp):
         #初始化数据
         pass
         url = pre_case[data_key.url]
@@ -108,38 +139,77 @@ class TestExcel:
         headers = pre_case[data_key.headers]
         params_type = pre_case[data_key.params_type]
         cookies = pre_case[data_key.cookies]
+        Product_line = pre_case[data_key.Product_line]
         #判断headers是否存在，存在json转义，无需
         headers = Base.json_parse(headers)
         #self.run_api(url=url,get_token=get_token,method=method,params=params,header=headers,cookies=get_token,params_type=params_type)
-        res = self.run_api(url=url, get_token=get_token, method=method, params_type=params_type, params=params,header=headers, cookies=get_token)
+        res = self.run_api(url=url, Product_line=Product_line,get_token=get_token,get_token_enterprise=get_token_enterprise,get_token_userapp=get_token_userapp,method=method, params_type=params_type, params=params,headers=headers, cookies=get_token_enterprise)
         return res
 
-    def get_correlation(self,headers, cookies, params, pre_res):
+    def get_correlation(self,headers, cookies, params, pre_res,id=None):
         # 验证是否有关联
         headers_para, cookies_para, params_para = Base.params_find(headers, cookies, params)
         #print("patamsdata数据为：%s"%params_para)
         # 有关联，执行前置用例，获取结果
-        if len(headers_para):
-            headers_data = pre_res["body"][headers_para[0]]
-            # 结果替换
-            headers = Base.res_sub(headers, headers_data)
+        # if len(headers_para):
+        #     headers_data = pre_res["body"][headers_para[0]]
+        #     # 结果替换
+        #     headers = Base.res_sub(headers, headers_data)
         if len(cookies_para):
             cookies_data = pre_res["body"][cookies_para[0]]
             # 结果替换
             cookies = Base.res_sub(cookies, cookies_data)
-        if len(params_para):
+        if len(params_para) and (id!=4.0):
             print("需要替换的变量为：%s"%params_para)
             params_data = pre_res["body"]["data"][params_para[0]]
-            #params_data = jsonpath.jsonpath(pre_res["body"], '$.data.reOrderToken')[0]
-            print("需要替换的变量值是：%s"%params_data)
+            print(type(params_data))
+            # params_data = jsonpath.jsonpath(pre_res["body"], '$.data.reOrderToken')[0]
+            print("需要替换的变量值是：%s" % params_data)
             # 结果替换
             params = Base.res_sub(params, params_data)
+        # else:
+        #     params_data = pre_res["body"]["data"][params_para]
+        #     print("需要替换的变量为：%s" % params_para)
+        #     print("需要替换的变量值是：%s"%params_data)
+        #     # 结果替换
+        #     params = Base.res_sub(params, params_data)
         return headers, cookies, params
+
+        #后置条件取值替换方法
+
+    def get_correlation_post_result(self,headers, cookies,params,db_result):
+        # 验证是否有关联
+        headers,cookies,params_para = Base.params_find(headers, cookies,params)
+        # print("patamsdata数据为：%s"%params_para)
+        # 有关联，执行前置用例，获取结果
+        if len(params_para):
+            print("需要替换的变量为：%s" % params_para)
+            # 初始化数据库
+            from common.Base import init_db
+            sql = init_db("db_pre")
+            # 查询sqp语句，excel定义好的
+            db_res = sql.fetchone(db_result)
+            log.debug("数据库查询结果：{}".format(str(db_res)))
+            # 数据库结果与接口返回的结果验证
+            # 获取数据库结果的key
+            #verify_list = list(dict(db_res).keys())
+            verify_list_value = str(list(dict(db_res).values())[0])
+            #print("数据库查询的后置变量key为：%s" % verify_list)
+            print("数据库查询的变量替换值为：%s" % verify_list_value)
+            # params_data = pre_res["body"]["data"][params_para[0]]
+            # params_data = jsonpath.jsonpath(pre_res["body"], '$.data.reOrderToken')[0]
+            print("需要替换的变量值是：%s" % verify_list_value)
+            print(type(verify_list_value))
+            print(params)
+            # 结果替换
+            params = Base.res_sub(params,verify_list_value)
+            #print("结果替换后传参为：%s"%params)
+        return headers,cookies,params
 
     # 初始化信息url,data
     #1、增加pytest
     @pytest.mark.parametrize("case",run_list)
-    def test_run(self,case,get_token):
+    def test_run(self,case,get_token,get_token_enterprise,get_token_userapp):
         #data_key = ExcelConfig.DataConfig()
         url = case[data_key.url]
         case_id = case[data_key.case_id]
@@ -156,6 +226,9 @@ class TestExcel:
         cookies = case[data_key.cookies]
         code = case[data_key.code]
         db_result = case[data_key.db_result]
+        Post_result = case[data_key.Post_result]
+        db_result_want_to = case[data_key.db_result_want_to]
+        Product_line = case[data_key.Product_line]
         #print(url)
         #print(case_model)
 
@@ -172,36 +245,68 @@ class TestExcel:
         #header = Base.json_parse(headers)
         #cookie = Base.josn_parse(cookies)
 
-        #1、验证前置条件
+        # #1、验证前置条件
+        # if pre_exc:
+        #     pass
+        # #2、找到执行用例
+        #     #前置测试用例
+        #     pre_case = data_init.get_case_pre(pre_exc)
+        #     print("前置条件信息为：%s"%pre_exc)
+        #     print("前置用例为：%s"%pre_case)
+        #     pre_res = self.run_pre(pre_case,get_token)
+        #     print("执行前置用例结果为：%s"%pre_res)
+        #     #print("执行前置用例body结果为：%s"%pre_res["body"]["data"]["reOrderToken"])
+        #     #替换
+        #     #params = Base.json_parse(params)
+        #     #print("将json中的null转换为字典格式：%s"%params)
+        #     # 注意需要转换成字符串传参
+        #     #print("格式化字典参数是：\"%s\""%params)
+        #     #params1 = '"'+str(params)+'"'
+        #     #params = '"{}"'.format(str(params))
+        #     print(params)
+        #     headers,cookies,params = self.get_correlation(headers,cookies,params,pre_res,id=id)
+        #     #paramend = json.loads(params3)
+        #     print("替换后的参数是：%s"%params)
+
+        # 1、验证前置条件
         if pre_exc:
             pass
-        #2、找到执行用例
-            #前置测试用例
+            # 2、找到执行用例
+            # 前置测试用例
             pre_case = data_init.get_case_pre(pre_exc)
-            print("前置条件信息为：%s"%pre_exc)
-            print("前置用例为：%s"%pre_case)
-            pre_res = self.run_pre(pre_case,get_token)
-            print("执行前置用例结果为：%s"%pre_res)
-            #print("执行前置用例body结果为：%s"%pre_res["body"]["data"]["reOrderToken"])
-            #替换
-            #params = Base.json_parse(params)
-            #print("将json中的null转换为字典格式：%s"%params)
-            # 注意需要转换成字符串传参
-            #print("格式化字典参数是：\"%s\""%params)
-            #params1 = '"'+str(params)+'"'
-            #params = '"{}"'.format(str(params))
+            print("前置条件信息为：%s" % pre_exc)
+            print("前置用例为：%s" % pre_case)
             print(params)
-            headers,cookies,params = self.get_correlation(headers,cookies,params,pre_res)
-            #paramend = json.loads(params3)
-            print("替换后的参数是：%s"%params)
+            pre_res = self.run_pre(pre_case, get_token,get_token_enterprise,Product_line,get_token_userapp)
+            print("执行前置用例结果为：%s" % pre_res)
+            # print("执行前置用例body结果为：%s"%pre_res["body"]["data"]["reOrderToken"])
+            # 替换
+            # params = Base.json_parse(params)
+            # print("将json中的null转换为字典格式：%s"%params)
+            # 注意需要转换成字符串传参
+            # print("格式化字典参数是：\"%s\""%params)
+            # params1 = '"'+str(params)+'"'
+            # params = '"{}"'.format(str(params))
+            print(params)
+            headers, cookies, params = self.get_correlation(headers, cookies, params, pre_res, id=id)
+            # paramend = json.loads(params3)
+            print("替换后的参数是：%s" % params)
+
+        #验证后置条件：
+        if Post_result:
+            pass
+            print(params)
+            headers, cookies, params = self.get_correlation_post_result(headers,cookies,params,db_result)
+            # paramend = json.loads(params3)
+            print("替换后的参数是：%s" % params)
+
         # headers = Base.json_parse(headers)
         # cookies = Base.json_parse(cookies)
         # params = Base.json_parse(params)
         # print("字典化参数为：%s"%params)
         #执行正常的测试用例
-        res = self.run_api(url=url,get_token=get_token,method=method,params_type=params_type,params=params,header=headers,cookies=get_token)
-        print(res)
-
+        res = self.run_api(url=url,Product_line=Product_line,get_token=get_token,get_token_enterprise=get_token_enterprise,get_token_userapp=get_token_userapp,method=method,params_type=params_type,params=params,headers=headers,cookies=get_token_enterprise)
+        print("最终运行用例返回结果为：%s"%res)
         #allure
         #sheet名称 feature一级标签
         allure.dynamic.feature(sheet_name)
@@ -234,10 +339,15 @@ class TestExcel:
             #数据库结果与接口返回的结果验证
             #获取数据库结果的key
             verify_list = list(dict(db_res).keys())
+            verify_list_value = list(dict(db_res).values())[0]
             print("数据库查询的key：%s"%verify_list)
+            #print("数据库查询的值：%s"%verify_list_value)
             #根据key获取数据库结果，接口结果,注意接口返回的层级，是在data嵌套里面的
             for line in verify_list:
-                res_line = res["body"]["data"][line]
+                if db_result_want_to == "y":
+                    res_line = res["body"]["data"][line]
+                elif db_result_want_to == "n":
+                    res_line = res["body"]["data"]["base"][line]
                 res_db_line = dict(db_res)[line]
             #验证
                 assert_util.assert_body(res_line,res_db_line)
@@ -306,7 +416,7 @@ class TestExcel:
 
 if __name__ == '__main__':
     #定义报告路径
-    report_path = conf.get_report_path() + os.sep + "result"
+    report_path = conf.get_report_path() + os.sep + "result.txt"
     print("报告文件夹名称为：%s" % report_path)
     print("调试：%s"%11111)
     report_html_path = conf.get_report_path() + os.sep + "html"

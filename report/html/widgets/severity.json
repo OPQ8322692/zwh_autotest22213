@@ -1,30 +1,40 @@
 [ {
-  "uid" : "1fbb4b056f44e82d",
-  "name" : "3.0发布师傅-家具安装订单",
+  "uid" : "206a255f15845c94",
+  "name" : "2.0发布师傅-家具安装订单",
   "time" : {
-    "start" : 1644486886149,
-    "stop" : 1644486888181,
-    "duration" : 2032
+    "start" : 1647075653738,
+    "stop" : 1647075654669,
+    "duration" : 931
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ed1fe4d34c896405",
-  "name" : "1.0请求获取reorderToken1",
+  "uid" : "5bad98c81f5fa0ce",
+  "name" : "test_run[case0]",
   "time" : {
-    "start" : 1644486883143,
-    "stop" : 1644486884533,
-    "duration" : 1390
+    "start" : 1647339983431,
+    "stop" : 1647339983435,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "69bbdf8f1683079f",
+  "name" : "3.0发布直接雇佣师傅-家具安装订单",
+  "time" : {
+    "start" : 1647075654686,
+    "stop" : 1647075656050,
+    "duration" : 1364
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4691cf9716bce37f",
-  "name" : "2.0请求获取reorderToken",
+  "uid" : "2a727a2eeb6983e1",
+  "name" : "4.0查看真接雇佣订单详情",
   "time" : {
-    "start" : 1644486884546,
-    "stop" : 1644486886137,
-    "duration" : 1591
+    "start" : 1647075656078,
+    "stop" : 1647075656732,
+    "duration" : 654
   },
   "status" : "passed",
   "severity" : "normal"

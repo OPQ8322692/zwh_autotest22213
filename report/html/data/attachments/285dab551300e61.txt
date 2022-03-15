@@ -1,3 +1,0 @@
-DEBUG    Request:RequestsUtil.py:20 发送post请求
-DEBUG    Request:RequestsUtil.py:20 发送post请求
-DEBUG    E:\zwh_autotest\utils\loggerUtil.py:tt2est_excel_case.py:233 数据库查询结果：{'orderId': 12183525733}

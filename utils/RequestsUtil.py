@@ -10,12 +10,12 @@ class Requests:
 #2、定义公共方法
     def __init__(self):
         self.log = my_log("Request")
-    def requests_api(self,url,data=None,json=None,headers=None,cookies=None,method="get"):
+    def requests_api(self,url,data=None,json=None,params=None,headers=None,cookies=None,method="get"):
         #1、增加方法的参数，根据参数来验证方法get/post，方法请求
         if method == "get":
             #get请求
             self.log.debug("发送get请求")
-            r = requests.get(url,data=data,json=json,cookies=cookies,headers=headers)
+            r = requests.get(url,data=data,json=json,params=params,cookies=cookies,headers=headers)
         elif method == "post":
             self.log.debug("发送post请求")
             r = requests.post(url,data=data,json=json,cookies=cookies,headers=headers)
